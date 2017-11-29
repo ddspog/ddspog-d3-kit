@@ -1,0 +1,17 @@
+# github.com/go-task/task
+
+push:
+  cmds:
+    - echo "Publish all changes to origin branch."
+    - git push
+    - git push --tags
+  silent: true
+
+npm-publish:
+  cmds:
+    - echo "Publish new version on npm."
+    - npm publish ./
+
+publish:
+  deps: [npm-publish, push]
+  desc: Publish development changes.
