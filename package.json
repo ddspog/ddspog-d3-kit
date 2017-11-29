@@ -1,0 +1,29 @@
+{
+  "name": "ddspog-d3-kit",
+  "version": "0.1.0",
+  "description": "Utils package for D3 projects.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "test",
+    "run": "ts-node ./src/index.ts",
+    "prepublishOnly": "tsc -p ./ --outDir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddspog/ddspog-d3-kit.git"
+  },
+  "keywords": [
+    "d3",
+    "util"
+  ],
+  "author": "Dênnis Sousa <ddspog@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddspog/ddspog-d3-kit/issues"
+  },
+  "homepage": "https://github.com/ddspog/ddspog-d3-kit#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
