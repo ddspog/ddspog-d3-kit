@@ -4,4 +4,6 @@ npm-shrinkwrap.json
 package-lock.json
 tsconfig.json
 Taskfile.yml
+changes
+version
 AUTHORS
