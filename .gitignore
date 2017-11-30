@@ -4,4 +4,5 @@ typings/
 npm-debug.log
 dist/
 bin/
+changes
 AUTHORS
