@@ -17,3 +17,9 @@ npm-publish:
 publish:
   deps: [npm-publish, push]
   desc: Publish development changes.
+
+compile:
+  cmds:
+    - echo "Compiling js version..."
+    - tsc -p ./ --outDir dist/
+  silent: true

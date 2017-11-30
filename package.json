@@ -1,6 +1,6 @@
 {
   "name": "ddspog-d3-kit",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Utils package for D3 projects.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
