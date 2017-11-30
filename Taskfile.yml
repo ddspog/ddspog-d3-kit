@@ -10,6 +10,8 @@ push:
 npm-publish:
   cmds:
     - echo "Publish new version on npm."
+    - rm -R -f bin
+    - rm -R -f dist
     - npm publish ./
 
 publish:
