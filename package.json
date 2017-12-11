@@ -1,13 +1,11 @@
 {
   "name": "ddspog-d3-kit",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Utils package for D3 projects.",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "test",
-    "run": "ts-node ./src/index.ts",
-    "prepublishOnly": "tsc -p ./ --outDir dist/"
+    "test": "mocha",
+    "run": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +22,7 @@
   },
   "homepage": "https://github.com/ddspog/ddspog-d3-kit#readme",
   "devDependencies": {
-    "typescript": "^2.6.2"
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
