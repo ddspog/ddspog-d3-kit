@@ -1,4 +1,4 @@
-// functions/generators_test.js
+// functions/generators.js
 var { range } = require('../../src/index');
 var should = require('chai').should();
 
