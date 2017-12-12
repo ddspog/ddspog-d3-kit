@@ -6,6 +6,7 @@ push:
     - git push
     - git push --tags
   silent: true
+  desc: Push code to remote repo.
 
 npm-publish:
   cmds:
@@ -16,8 +17,14 @@ publish:
   deps: [npm-publish, push]
   desc: Publish development changes.
 
-compile:
+test:
   cmds:
-    - echo "Compiling js version..."
-    - tsc -p ./ --outDir dist/
+    - npm test
   silent: true
+  desc: Run mocha tests.
+
+debug:
+  cmds:
+    - npm run-script debug
+  silent: true
+  desc: Debug mocha tests.
