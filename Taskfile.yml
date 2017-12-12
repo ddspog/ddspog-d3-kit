@@ -21,3 +21,15 @@ compile:
     - echo "Compiling js version..."
     - tsc -p ./ --outDir dist/
   silent: true
+
+test:
+  cmds:
+    - npm test
+  silent: true
+  desc: Run mocha tests.
+
+debug:
+  cmds:
+    - npm run-script debug
+  silent: true
+  desc: Debug mocha tests.
