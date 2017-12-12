@@ -1,4 +1,8 @@
-// elements/layoutBox.js
+/**
+ * @file Define tests for LayoutBox.
+ * @author Dênnis Sousa
+ */
+
 var { LayoutBox } = require('../../src/index');
 var should = require('chai').should();
 
