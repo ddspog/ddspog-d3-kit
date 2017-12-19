@@ -6,3 +6,4 @@
 require('./elements');
 require('./functions');
 require('./common');
+require('./factories');
