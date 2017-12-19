@@ -10,7 +10,7 @@ var common = require('./common');
 module.exports = {
     range: functions.range,
     LayoutBox: elements.LayoutBox,
-    RadarChartBuilder: factories.RadarChartBuilder,
+    ChartFactory: factories.ChartFactory,
     CustomError: common.CustomError,
     stringify: common.stringify
 };
