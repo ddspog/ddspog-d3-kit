@@ -1,4 +1,7 @@
-// functions/generators.js
+/**
+ * @file Define generators of custom data.
+ * @author Dênnis Souza
+ */
 
 function range_number(start, edge, step) {
     // Create the array of numbers, stopping before the edge.

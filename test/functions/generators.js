@@ -1,4 +1,8 @@
-// functions/generators.js
+/**
+ * @file Define tests for generators on project.
+ * @author Dênnis Sousa
+ */
+
 var { range } = require('../../src/index');
 var should = require('chai').should();
 

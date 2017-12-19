@@ -1,11 +1,18 @@
 /**
+ * @file Define LayoutBox object.
+ * @author Dênnis Souza
+ */
+'esversion: 6';
+
+/**
  * LayoutBox represents a layout ruled by four measures, this can
  * comprehend margins, visualizations objects, Viewbox, etc.
+ * @class
  */
 class LayoutBox {
     /**
-     * Simple constructor for LayoutBox.
-     * @param {any=} measurements Dictates the four measures of the box,
+     * Simple  for LayoutBox.
+     * @param {(string|string[])} measurements Dictates the four measures of the box,
      * being as a string or as an Array.
      */
     constructor(measurements) {
@@ -27,6 +34,7 @@ class LayoutBox {
 
     /**
      * Get minimum x value of box.
+     * @returns {string} The minimum x value of box.
      */
     get minX() {
         return this._values[0];
@@ -34,7 +42,7 @@ class LayoutBox {
 
     /**
      * Set minimum x value of box.
-     * @param {string=} val the minimum x value of box.
+     * @param {string} val - The minimum x value of box.
      */
     set minX(val) {
         this._values[0] = val;
@@ -42,6 +50,7 @@ class LayoutBox {
 
     /**
      * Get top measure of box.
+     * @returns {string} The top measure of box.
      */
     get top() {
         return this._values[0];
@@ -49,7 +58,7 @@ class LayoutBox {
 
     /**
      * Set top measure of box.
-     * @param {string=} val the top measure of box.
+     * @param {string} val - The top measure of box.
      */
     set top(val) {
         this._values[0] = val;
@@ -57,6 +66,7 @@ class LayoutBox {
 
     /**
      * Get minimum y value of box.
+     * @returns {string} The minimum y value of box.
      */
     get minY() {
         return this._values[1];
@@ -64,7 +74,7 @@ class LayoutBox {
 
     /**
      * Set minimum y value of box.
-     * @param {string=} val the minimum y value of box.
+     * @param {string} val - The minimum y value of box.
      */
     set minY(val) {
         this._values[1] = val;
@@ -72,6 +82,7 @@ class LayoutBox {
 
     /**
      * Get right measure of box.
+     * @returns {string} The right measure of box.
      */
     get right() {
         return this._values[1];
@@ -79,7 +90,7 @@ class LayoutBox {
 
     /**
      * Set right measure of box.
-     * @param {string=} val the right measure of box.
+     * @param {string} val - The right measure of box.
      */
     set right(val) {
         this._values[1] = val;
@@ -87,6 +98,7 @@ class LayoutBox {
 
     /**
      * Get width of box.
+     * @returns {string} The width of box.
      */
     get width() {
         return this._values[2];
@@ -94,7 +106,7 @@ class LayoutBox {
 
     /**
      * Set width of box.
-     * @param {string=} val the width of box.
+     * @param {string} val - The width of box.
      */
     set width(val) {
         this._values[2] = val;
@@ -102,6 +114,7 @@ class LayoutBox {
 
     /**
      * Get bottom measure of box.
+     * @returns {string} The bottom measure of box.
      */
     get bottom() {
         return this._values[2];
@@ -109,7 +122,7 @@ class LayoutBox {
 
     /**
      * Set bottom measure of box.
-     * @param {string=} val the bottom measure of box.
+     * @param {string} val - The bottom measure of box.
      */
     set bottom(val) {
         this._values[2] = val;
@@ -117,6 +130,7 @@ class LayoutBox {
 
     /**
      * Get height of box.
+     * @returns {string} The height of box.
      */
     get height() {
         return this._values[3];
@@ -124,7 +138,7 @@ class LayoutBox {
 
     /**
      * Set height of box.
-     * @param {string=} val the height of box.
+     * @param {string} val - The height of box.
      */
     set height(val) {
         this._values[3] = val;
@@ -132,6 +146,7 @@ class LayoutBox {
 
     /**
      * Get left measure of box.
+     * @returns {string} The left measure of box.
      */
     get left() {
         return this._values[3];
@@ -139,7 +154,7 @@ class LayoutBox {
 
     /**
      * Set left measure of box.
-     * @param {string=} val the left measure of box.
+     * @param {string} val - The left measure of box.
      */
     set left(val) {
         this._values[3] = val;
