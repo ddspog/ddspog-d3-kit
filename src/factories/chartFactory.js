@@ -23,7 +23,7 @@ class ChartFactory {
 function createRadarChart(d3, options) {
     var id = options.id, data = options.data;
 
-    Object.keys(options)
+    options = Object.keys(options)
         .filter(key => !['id', 'data'].includes(key))
         .reduce((obj, key) => {
             obj[key] = options[key];
